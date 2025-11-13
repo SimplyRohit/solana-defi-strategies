@@ -1,12 +1,16 @@
 {
-  "name": "client-calls",
+  "name": "backend-calls",
   "module": "index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.91.2",
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.8"
   }
 }

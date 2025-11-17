@@ -1,5 +1,5 @@
 {
-  "name": "backend-calls",
+  "name": "@repo/rpc",
   "module": "index.ts",
   "type": "module",
   "private": true,

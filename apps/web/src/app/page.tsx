@@ -1,3 +1,12 @@
+"use client";
+import { usePrivy } from "@privy-io/react-auth";
+
 export default function Home() {
-  return <div></div>;
+  const { ready } = usePrivy();
+
+  if (!ready) {
+    return <div>Loading...</div>;
+  }
+
+  return <div>Privy is ready!</div>;
 }

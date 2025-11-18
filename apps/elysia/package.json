@@ -1,5 +1,6 @@
 {
-  "name": "backend",
+  "name": "@apps/elysia",
+  "main": "src/index.ts",
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -7,7 +8,8 @@
   },
   "dependencies": {
     "@elysiajs/cors": "^1.4.0",
-    "elysia": "latest"
+    "@elysiajs/eden": "^1.4.5",
+    "elysia": "^1.4.16"
   },
   "devDependencies": {
     "bun-types": "latest"
